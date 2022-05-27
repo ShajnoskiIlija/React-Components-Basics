@@ -7,7 +7,7 @@ const NewExpense = (props) => {
       ...enteredExpenseData,
       id: Math.random().toString()
     };
-    props.onAddExpence={expenceData};
+    props.onAddExpence={expenseData};
   };
   return (
     <div className='new-expense'>
